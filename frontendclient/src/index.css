@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@100..900&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: "Ubuntu", serif;
+}
+
+.item-button button{
+    margin-top: 20px;
+    width: 150px;
+    background-color: rgba(0, 128, 0, 0.747);
+    color: white;
+
+}
+
+
+.ant-layout-header{
+
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart-item{
+    padding-left: 290px;
+    padding-right: 30px ;
+    cursor: pointer;
+}
+
+.cart-item p{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100 ;
+    color: green;
+}
+
+.spinner-border{
+    height: 200px;
+    width: 200px;
+}
+
+.category{
+    border: 2px solid gray;
+    margin-right: 25px;
+    margin-bottom:10px ;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.category img{
+margin-left: 10px;
+}
+
+.category-active{
+    border:  2px solid green;
+    background-color: gray;
+}
+
+/* Register page */
+
+.register{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}
+
+.register input{
+    width: 400px !important;
+}
+
+.alredy{
+    flex: auto;
+    margin-right: 60px;
+}
+
+.register-form{
+    background-color: rgba(92, 224, 59, 0.829);
+    padding: 20px;
+  
+    
+    box-shadow:rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.register-form h1{
+    text-align: center;
+    background-color: rgb(7, 99, 3);
+    color: black;
+    padding: 5px;
+}
+
+.register-form h3{
+    color: rgb(3, 44, 28);
+    text-align: center;
+}
+
+

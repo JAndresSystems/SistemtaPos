@@ -1,0 +1,79 @@
+/* BillsCheck.css */
+
+/* Contenedor de la factura */
+.invoice-modal-content {
+    width: 600px; /* Tamaño reducido de la factura */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  /* Encabezado de la factura */
+  .invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-header img {
+    width: 100px; /* Ajuste del tamaño de la imagen del logo */
+    margin-bottom: 10px;
+  }
+  
+  .invoice-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Detalles de la factura */
+  .invoice-details {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Tabla de productos */
+  .product-table {
+    margin-bottom: 20px;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Totales al final de la factura */
+  .total-section {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .total-section p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Estilo del pie de la factura */
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  
